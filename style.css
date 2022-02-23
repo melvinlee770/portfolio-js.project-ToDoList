@@ -1,47 +1,58 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-#project_title, .login-username-container, .submit-container a {
-    font-family: 'Noteworthy-Bold', 'Courier New', Courier, monospace;
+#project_title,
+.login-username-container,
+.submit-container a {
+  font-family: "Noteworthy-Bold", "Courier New", Courier, monospace;
 }
 
-#login-username-container, #project_title {
-    text-align: center;
+#login-username-container,
+#project_title {
+  text-align: center;
 }
 
 #line {
-    border: none;
+  border: none;
 }
 
-#fusername, #fpassword {
-    height: 50px;
-    border: 3px solid #ccc;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    outline: none;
+#fusername,
+#fpassword {
+  height: 50px;
+  border: 1px solid rgb(0, 0, 0);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
 }
 
-#fusername:focus, #fpassword:focus {
-    border: 3px solid #555;
+#fusername:focus,
+#fpassword:focus {
+  border: 3px solid #555;
 }
 
 .submit-container {
-    border: solid;
-    margin: auto;
-    color: rgb(0, 0, 0);
-    font-size: clamp(2rem, 5vw, 3rem);
-    background-color: rgb(255, 255, 255)
+  border: solid;
+  background-color: transparent;
+  height: 40px;
+  width: 120px;
+}
+
+#submitTitle {
+  font-size: clamp(2rem, 5vw, 2.5rem);
+  /* at first the font will show with the size of 2.5rem, then slowly dcrease 5vw and stop decrease when reach 2rem */
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
 }
 
 ::placeholder {
-    color: rgb(0, 0, 0);
-    text-align: center;
-    font-family: 'Noteworthy-Bold', 'Courier New', Courier, monospace;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Noteworthy-Bold", "Courier New", Courier, monospace;
 }
 
-.submit-container:hover{
-    background-color: rgb(123, 123, 123);
+.submit-container:hover {
+  background-color: rgb(123, 123, 123);
 }
