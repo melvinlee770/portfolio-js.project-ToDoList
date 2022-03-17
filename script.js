@@ -6,4 +6,5 @@ function testing() {
       "Password: " +
       document.getElementById("fpassword").value
   );
+  window.location = "home.html"
 }

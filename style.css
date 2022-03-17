@@ -6,7 +6,7 @@
 
 #project_title,
 .login-username-container,
-.submit-container a {
+.submit-container {
   font-family: "Noteworthy-Bold", "Courier New", Courier, monospace;
 }
 
@@ -26,6 +26,7 @@
   -webkit-transition: 0.5s;
   transition: 0.5s;
   outline: none;
+  text-align: center;
 }
 
 #fusername:focus,
@@ -35,9 +36,10 @@
 
 .submit-container {
   border: solid;
-  background-color: transparent;
   height: 40px;
   width: 120px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #submitTitle {
@@ -55,4 +57,8 @@
 
 .submit-container:hover {
   background-color: rgb(123, 123, 123);
+}
+
+::-moz-placeholder {
+  text-align: center;
 }
