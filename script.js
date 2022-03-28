@@ -1,4 +1,4 @@
-function testing() {
+function login() {
   alert(
     "Username: " +
       document.getElementById("fusername").value +

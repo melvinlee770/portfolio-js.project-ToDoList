@@ -5,7 +5,7 @@
 }
 
 #project_title,
-.login-username-container,
+#login-username-container,
 .submit-container {
   font-family: "Noteworthy-Bold", "Courier New", Courier, monospace;
 }
@@ -36,29 +36,29 @@
 
 .submit-container {
   border: solid;
-  height: 40px;
-  width: 120px;
   margin-left: auto;
   margin-right: auto;
 }
 
 #submitTitle {
-  font-size: clamp(2rem, 5vw, 2.5rem);
+  font-size: clamp(2rem, 5vw, 1rem);
   /* at first the font will show with the size of 2.5rem, then slowly dcrease 5vw and stop decrease when reach 2rem */
   color: rgb(0, 0, 0);
   text-transform: uppercase;
 }
 
-::placeholder {
-  color: rgb(0, 0, 0);
-  text-align: center;
-  font-family: "Noteworthy-Bold", "Courier New", Courier, monospace;
-}
-
 .submit-container:hover {
-  background-color: rgb(123, 123, 123);
+  background-color: rgb(59, 59, 59);
 }
 
-::-moz-placeholder {
-  text-align: center;
+.testing {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+.contentBox {
+  margin: 1em;
+  padding: 1em;
+}
+
